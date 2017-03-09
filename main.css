@@ -32,9 +32,67 @@ body{
     }
 
 .navbar{
-    height:75px;
     border-bottom: gray thin solid;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    padding-left: 50px; padding-right: 50px;
+    padding-top: 15px; padding-bottom: 15px;
+}
+
+    .logo{
+        width: 150px;
+    }
+
+    .nav_links a{
+        color: black;
+        text-decoration: none;
+        padding-left: 30px;
+    }
+    
+    .nav_links a:hover{
+        text-decoration: underline;
+    }
+    
+.hero_image{
+    background-image: url('img/doctor.jpg');
+    background-size: cover;
+    min-height: 500px;
+    display: flex;
     padding-left: 50px;
 }
+
+    .hero_image .header_container{
+       margin-top: 100px;
+       width: 400px;
+    }
+    
+    .hero_image .header_container h1{
+       color:#333333;
+       font-size: 300%;
+    }
+    
+    button{
+       color:white;
+       font-size: 110%;
+       background-color: #3F69B3;
+       border:none;
+       border-radius: 5px;
+       padding: 10px;
+    }
+    
+.overview{
+    padding-left: 50px; padding-right: 50px;
+    padding-top: 25px; padding-bottom:25px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}    
+
+    .overview_content{
+        width: 75%;
+        text-align: center;
+        border-top: thick #3F69B3 solid;
+        border-bottom: thick #3F69B3 solid;
+        padding-bottom: 25px;
+    }
