@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: Raleway,'Trebuchet MS', Helvetica, sans-serif;
 }
 
 .material-icons{
@@ -82,8 +82,7 @@ body{
     }
     
 .overview{
-    padding-left: 50px; padding-right: 50px;
-    padding-top: 25px; padding-bottom:25px;
+    padding: 50px;
     display: flex;
     align-items: center;
     justify-content:center;
@@ -95,4 +94,22 @@ body{
         border-top: thick #3F69B3 solid;
         border-bottom: thick #3F69B3 solid;
         padding-bottom: 25px;
+    }
+
+.resources{
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+    .resource_container{
+        text-align: center;
+        width: 30%;
+    }
+    
+    .resource_container .material-icons{
+        font-size: 50px;
+        color: #3F69B3;
     }
