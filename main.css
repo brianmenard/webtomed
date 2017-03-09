@@ -13,8 +13,9 @@ body{
     display: flex;
     background-color: #3F69B3;
     color: white;
-    padding-left: 50px;
+    padding-left: 50px; padding-right: 50px;
     align-items: center;
+    justify-content: flex-end;
 }
 
     .contact_item{
@@ -112,4 +113,30 @@ body{
     .resource_container .material-icons{
         font-size: 50px;
         color: #3F69B3;
+    }
+    
+.footer{
+    display: flex;
+    background-color: #3F69B3;
+    color: white;
+    padding-left: 50px; padding-right: 50px;
+    padding-top: 5px; padding-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+    .copyright{
+        font-size:75%;
+        color:#b2c3e0;
+    }
+    
+    .footer_links a{
+        color: white;
+        text-decoration:none;
+        font-size: 75%;
+        padding-left:25px;
+    }
+    
+    .footer_links a:hover{
+        text-decoration:underline;
     }
